@@ -1,0 +1,83 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+h1, h2{
+    text-align: center;
+    color: white;
+}
+#container{
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    display: block;
+    margin: auto;
+    width: 50vw;
+    overflow: hidden;
+
+}
+.rows {
+    display: flex;
+    margin: auto;
+}
+.rows>button{
+    width: 17vw;
+    height: 15vh;
+    transition: all 0.5s ease;
+    border-radius: 40px;
+    margin: 2%;
+    background-color: white;
+    cursor: pointer;
+    font-size: 3rem;
+    color: black;
+}
+.rows>button:hover{
+    transform: scale(1.1);
+}
+#playerinfo{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    column-gap: 10%;
+    margin-bottom: 3%
+}
+#playerbox1{
+    background-color: white;
+    width: 30vw;
+    border-radius: 40px;
+    margin-left: 2%;
+}
+#playerbox1>h1,h2{
+    color: black;
+}
+#playerbox2{
+    background-color: white;
+    width: 30vw;
+    border-radius: 40px;
+    margin-right: 3%;
+}
+#playerbox2>h1,h2{
+    color: black;
+}
+#box{
+    background-color: white;
+    width: 30vw;
+    border-radius: 40px;
+}
+#box>h1{
+    color: black;
+}
+#reset{
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+    background-color: white;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 30px;
+}
